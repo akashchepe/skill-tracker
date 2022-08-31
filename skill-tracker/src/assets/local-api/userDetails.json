@@ -1,0 +1,110 @@
+{
+    "result": [
+        {
+            "userId": "1",
+            "associateId": "CTS105",
+            "associateName": "Akash",
+            "userMobile": "+918087203387",
+            "userEmailId": "akashchepe@cognizant.com",
+            "userAddedDate": "2022-08-31",
+            "userModifiedDate": "2022-08-31",
+            "skillDetails": [
+                {
+                    "skillName": "HTML",
+                    "skillType": "T",
+                    "score": 19
+                },
+                {
+                    "skillName": "CSS",
+                    "skillType": "T",
+                    "score": 18
+                },
+                {
+                    "skillName": "REACT",
+                    "skillType": "T",
+                    "score": 19
+                },
+                {
+                    "skillName": "Angular",
+                    "skillType": "T",
+                    "score": 12
+                },
+                {
+                    "skillName": "AWS",
+                    "skillType": "T",
+                    "score": 16
+                }
+            ],
+            "functSkills": [
+                {
+                    "skillName": "Spoken",
+                    "skillType": "F",
+                    "score": 18
+                },
+                {
+                    "skillName": "Communication",
+                    "skillType": "F",
+                    "score": 18
+                },
+                {
+                    "skillName": "Aptitude",
+                    "skillType": "F",
+                    "score": 15
+                }
+            ]
+        },
+        {
+            "userId": "2",
+            "associateId": "CTS106",
+            "associateName": "Test",
+            "userMobile": "+91999999999",
+            "userEmailId": "test@cognizant.com",
+            "userAddedDate": "2022-08-31",
+            "userModifiedDate": "2022-08-31",
+            "skillDetails": [
+                {
+                    "skillName": "Test",
+                    "skillType": "T",
+                    "score": 19
+                },
+                {
+                    "skillName": "CSS",
+                    "skillType": "T",
+                    "score": 18
+                },
+                {
+                    "skillName": "Test",
+                    "skillType": "T",
+                    "score": 19
+                },
+                {
+                    "skillName": "Angular",
+                    "skillType": "T",
+                    "score": 12
+                },
+                {
+                    "skillName": "AWS",
+                    "skillType": "T",
+                    "score": 16
+                }
+            ],
+            "functSkills": [
+                {
+                    "skillName": "Spoken",
+                    "skillType": "F",
+                    "score": 11
+                },
+                {
+                    "skillName": "Communication",
+                    "skillType": "F",
+                    "score": 12
+                },
+                {
+                    "skillName": "Aptitude",
+                    "skillType": "F",
+                    "score": 13
+                }
+            ]
+        }
+    ]
+}
