@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http'
+import { HttpClient, HttpParams } from '@angular/common/http'
 
 
 @Injectable({
@@ -13,9 +13,17 @@ export class SkillTrackerService {
 
   }
 
+  
 
-  getUserDetails(body: any) {
-    return this.http.post('../assets/local-api/userDetails.json', body);
+
+  getUserDetails(formData: any) {
+
+    let params = new HttpParams();
+    params = params.append('associateName', formData.associateName);
+    params = params.append('associateId', formData.associateId);
+    params = params.append('skillName', formData.skillName);
+  
+    return this.http.get('../assets/local-api/userDetails.json', {params: params});
   }
   
 
