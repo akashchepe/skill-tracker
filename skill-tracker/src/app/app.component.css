@@ -32,3 +32,24 @@ th {
 .search-form-field {
     margin: 0 20px 0 20px;
 }
+
+.dataBlock {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+mat-card {
+    margin: 20px;
+}
+
+.firstBlock {
+    background-color: aqua;
+}
+.secondBlock {
+    background-color: rgb(6, 72, 116);
+}
+
+.thirdBlock {
+    background-color: rgb(184, 67, 0);
+}

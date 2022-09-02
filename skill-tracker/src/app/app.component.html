@@ -34,9 +34,9 @@
 </div>
 
 <div class="container text-center">
-  <div class="row" >
+  <div class="row dataBlock" *ngFor="let user of userDetails?.result">
     <div class="col">
-      <mat-card *ngFor="let user of userDetails?.result">
+      <mat-card class="firstBlock" >
         <mat-card-title>Personal Details</mat-card-title>
         <table class="table" >
           <tbody>
@@ -61,11 +61,11 @@
       </mat-card>
     </div>
     <div class="col">
-      <mat-card *ngFor="let skills of userDetails?.result">
+      <mat-card class="secondBlock">
         <mat-card-title>Skills</mat-card-title>
         <table class="table">
           <tbody>
-            <tr *ngFor="let skill of skills.skillDetails">
+            <tr *ngFor="let skill of user.skillDetails">
               <th scope="row">{{skill.skillName}}</th>
               <td>{{skill.score}}</td>
             </tr>
@@ -73,12 +73,12 @@
         </table>
       </mat-card>
     </div>
-    <div class="col">
-      <mat-card *ngFor="let funct of userDetails?.result">
+    <div class="col" >
+      <mat-card class="thirdBlock">
         <mat-card-title>Interpersonal Skills</mat-card-title>
         <table class="table">
           <tbody>
-            <tr *ngFor="let functSkill of funct.functSkills">
+            <tr *ngFor="let functSkill of user.functSkills">
               <th scope="row">{{functSkill.skillName}}</th>
               <td>{{functSkill.score}}</td>
             </tr>
@@ -87,7 +87,6 @@
       </mat-card>
     </div>
   </div>
-
 </div>
 
 <footer>
